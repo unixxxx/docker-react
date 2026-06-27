@@ -1,0 +1,2 @@
+# Trained model artifacts are written here by `python -m ml.train`.
+# The .joblib files themselves are gitignored — regenerate them locally.

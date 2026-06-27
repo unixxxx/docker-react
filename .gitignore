@@ -9,6 +9,30 @@
 # production
 /build
 
+# --- Fishing Copilot ---
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Local databases
+*.db
+*.sqlite3
+
+# Trained model artifacts (regenerate with `python -m ml.train`)
+ml/artifacts/*.joblib
+
+# Env files
+.env
+backend/.env
+
+# Expo / React Native
+mobile/node_modules/
+mobile/.expo/
+mobile/dist/
+
 # misc
 .DS_Store
 .env.local

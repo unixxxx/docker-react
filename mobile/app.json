@@ -1,0 +1,22 @@
+{
+  "expo": {
+    "name": "Fishing Copilot",
+    "slug": "fishing-copilot",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#0e3a53"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": { "supportsTablet": true },
+    "android": {
+      "adaptiveIcon": { "backgroundColor": "#0e3a53" }
+    },
+    "web": { "bundler": "metro" },
+    "extra": {
+      "apiBaseUrl": "http://localhost:8000"
+    }
+  }
+}
